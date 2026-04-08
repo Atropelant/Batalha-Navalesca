@@ -1,0 +1,49 @@
+body{
+    background-image: url(logo2.0.png);
+    background-repeat: no-repeat;
+    background-size: cover;            
+    background-position: center;
+    width: 100vw;  
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    & div{
+        background: rgba(26, 0, 97, 0.988); 
+        backdrop-filter: blur(30px);
+        -webkit-backdrop-filter: blur(10px);
+        width: 10vw;
+        height: 10vh;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50vh;
+        margin-right: 3vw;
+
+        & a{
+            font-size: larger;
+            color: goldenrod;
+            text-decoration: none;
+
+        }
+    }
+
+            & div:hover{
+            background: rgba(31, 0, 118, 0.988); 
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(10px);
+            width: 10.2vw;
+            height: 10.2vh;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50vh;
+            margin-right: 3vw;
+            box-shadow: 0 0 15px 5px goldenrod;
+
+        }
+}
