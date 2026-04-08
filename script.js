@@ -21,7 +21,7 @@ function tabela() {
             tab[l][c] = imagens[indice];
             const img = document.createElement("img");
             // tiroteioo
-            img.src = "src/Fire-icon.png";
+            img.src = "Fire-icon.png";
             img.width = 50;
             img.id = l + "-" + c;
             img.onclick = function () {
